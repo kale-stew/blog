@@ -1,5 +1,5 @@
 module.exports = {
-  title: `Stuff & Things`,
+  title: 'Kylie is Online',
   description: `A blog about JavaScript, Notion, and things in between.`,
   author: `Kylie Stewart`,
   introduction: `A big fan of dogs and hiking`,
