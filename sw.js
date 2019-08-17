@@ -26,31 +26,31 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-dc4fa077d36d71b4b992.js"
+    "url": "webpack-runtime-4f73b49d222c59039e19.js"
   },
   {
-    "url": "styles.9553d2de66ecd75f377c.css"
+    "url": "styles.7b1396fea614a3c25cf2.css"
   },
   {
     "url": "styles-86acfcabd5b0b0dce93b.js"
   },
   {
-    "url": "app-6291ffec1de1f0ef19c9.js"
+    "url": "app-3200252e31ceb640a3d8.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-dcde7054254b34e4e860.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "00e9be435a9dedef1d29e250f7a3381f"
+    "revision": "1403b257610daf6cadbd9905e56b190a"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "fd76bcd46a0074cc9c7599310e11e713"
+    "revision": "1546c6ff95132f938d6a1123278e714d"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "d483003a2a5bb671b77c7dae7a402900"
+    "revision": "b4a8197120bc8f5d333a344a3eed2ad9"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -69,12 +69,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/kylieis.online`), ``)
+  pathname = pathname.replace(new RegExp(`^/blog`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/kylieis.online/app-6291ffec1de1f0ef19c9.js`))) {
+  if (!resources || !(await caches.match(`/blog/app-3200252e31ceb640a3d8.js`))) {
     return await fetch(event.request)
   }
 
@@ -87,7 +87,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/kylieis.online/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/blog/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
