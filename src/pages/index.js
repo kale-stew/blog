@@ -14,7 +14,7 @@ import * as IOManager from '../utils/visible'
 import * as EventManager from '../utils/event-manager'
 import * as Dom from '../utils/dom'
 
-import { HOME_TITLE, CATEGORY_TYPE } from '../constants'
+import { CATEGORY_TYPE, HOME_TITLE } from '../constants'
 
 const DEST_POS = 316
 const BASE_LINE = 80

@@ -1,3 +1,4 @@
 export * from './enum'
-export * from './meta'
-export * from './window'
+
+export const HOME_TITLE = `Home`
+export const SCROLL_Y = 'y'

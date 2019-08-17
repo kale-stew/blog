@@ -1,26 +1,29 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
+import { Top } from '../components/top'
 import { rhythm } from '../utils/typography'
 
-export default ({ data }) => {
+export default ({ data, location, rootPath }) => {
   const resumes = data.allMarkdownRemark.edges
-
   const resume = resumes.map(({ node }) => node)[0]
 
   return (
-    <div
-      style={{
-        marginLeft: `auto`,
-        marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: `${rhythm(0.5)} ${rhythm(3 / 4)} ${rhythm(1.5)} ${rhythm(
-          3 / 4
-        )}`,
-      }}
-    >
-      <div dangerouslySetInnerHTML={{ __html: resume.html }} />
-    </div>
+    <React.Fragment>
+      <Top title={`Kylie's Blog`} location={''} rootPath={'/'} />
+      <div
+        style={{
+          marginLeft: `auto`,
+          marginRight: `auto`,
+          maxWidth: rhythm(24),
+          padding: `${rhythm(0.5)} ${rhythm(3 / 4)} ${rhythm(1.5)} ${rhythm(
+            3 / 4
+          )}`,
+        }}
+      >
+        <div dangerouslySetInnerHTML={{ __html: resume.html }} />
+      </div>
+    </React.Fragment>
   )
 }
 
