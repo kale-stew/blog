@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 
 import { Layout } from '../layout'
 import { Head } from '../components/head'
+import WanderingOtis from './images/dune-otis.jpg'
 
 class NotFoundPage extends React.Component {
   render() {
@@ -11,9 +12,16 @@ class NotFoundPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <Head title="404: Not Found" />
-        <h1>Not Found</h1>
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+        <Head title="404" />
+        <h1>Oh No!</h1>
+        <p>
+          You've found the 404 page, either intentionally or accidentally, by
+          hitting a route that doesn't exist.
+        </p>
+        <h2>Please allow Otis to guide you back home:</h2>
+        <a href="https://kyliestewart.tech/blog">
+          <img src={WanderingOtis} />
+        </a>
       </Layout>
     )
   }
