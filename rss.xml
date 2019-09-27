@@ -1,4 +1,160 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kylie's Blog]]></title><description><![CDATA[A blog about JavaScript, Notion, and things in between.]]></description><link>https://kyliestewart.tech/blog</link><generator>RSS for Node</generator><lastBuildDate>Sat, 17 Aug 2019 03:01:46 GMT</lastBuildDate><item><title><![CDATA[Using Formulas to Calculate Weight]]></title><description><![CDATA[Calculating Pack Weight in Notion Over the weekend, I decided to formally document all of my backpacking, camping, hiking, and climbing gear…]]></description><link>https://kyliestewart.tech/blog/notion/using-formulas-to-calculate-weight/</link><guid isPermaLink="false">https://kyliestewart.tech/blog/notion/using-formulas-to-calculate-weight/</guid><pubDate>Fri, 16 Aug 2019 20:08:47 GMT</pubDate><content:encoded>&lt;h1 id=&quot;calculating-pack-weight-in-notion&quot;&gt;&lt;a href=&quot;#calculating-pack-weight-in-notion&quot; aria-label=&quot;calculating pack weight in notion permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Calculating Pack Weight in Notion&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kylie's Blog]]></title><description><![CDATA[A blog about JavaScript, Notion, and things in between.]]></description><link>https://kyliestewart.tech/blog</link><generator>RSS for Node</generator><lastBuildDate>Fri, 27 Sep 2019 18:52:20 GMT</lastBuildDate><item><title><![CDATA[Using Hooks in My Spectacle Presentations]]></title><description><![CDATA[As of Spectacle v5.7.1, which updated React to the latest and greatest, you can use hooks within your presentations! 🎉 This is exciting…]]></description><link>https://kyliestewart.tech/blog/dev/using-hooks-in-classic-spectacle/</link><guid isPermaLink="false">https://kyliestewart.tech/blog/dev/using-hooks-in-classic-spectacle/</guid><pubDate>Thu, 26 Sep 2019 12:43:19 GMT</pubDate><content:encoded>&lt;p&gt;As of Spectacle &lt;a href=&quot;https://github.com/FormidableLabs/spectacle/releases/tag/v5.7.1&quot;&gt;v5.7.1&lt;/a&gt;, which updated React to the latest and greatest, you can use hooks within your presentations! 🎉 This is exciting because hooks will allow you to optimize your presentations in very different ways, including applying themes and [@TODO]. The following are a couple of ways I’ve improved my presentations using hooks.&lt;/p&gt;
+&lt;h2 id=&quot;applying-themes-using-todo-hook&quot;&gt;&lt;a href=&quot;#applying-themes-using-todo-hook&quot; aria-label=&quot;applying themes using todo hook permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Applying Themes Using [@TODO hook]&lt;/h2&gt;
+&lt;h2 id=&quot;todo-using-todo-hook&quot;&gt;&lt;a href=&quot;#todo-using-todo-hook&quot; aria-label=&quot;todo using todo hook permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;[@TODO] Using [@TODO hook]&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[How I Use Notion as a Personal Wiki]]></title><description><![CDATA[I use Notion as a one-stop-shop for a lot of my life’s work. Between planning camping trips to remembering to stop by the post office, I…]]></description><link>https://kyliestewart.tech/blog/notion/my-personal-wiki/</link><guid isPermaLink="false">https://kyliestewart.tech/blog/notion/my-personal-wiki/</guid><pubDate>Thu, 26 Sep 2019 11:33:50 GMT</pubDate><content:encoded>&lt;p&gt;I use Notion as a one-stop-shop for a lot of my life’s work. Between planning camping trips to remembering to stop by the post office, I have to write things down or I simply will not remember to do them. Notion has helped me track these things in a very straightforward way. I start my workday on a single page, from which I can view my week or month ahead, as well as the tasks I intend to accomplish in that time. I call this my &lt;strong&gt;Basecamp&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This &lt;strong&gt;Basecamp&lt;/strong&gt; approach consists of two main subsections:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Week Ahead&lt;/li&gt;
+&lt;li&gt;The Tasks Ahead&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;the-week-ahead&quot;&gt;&lt;a href=&quot;#the-week-ahead&quot; aria-label=&quot;the week ahead permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The Week Ahead&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The Week Ahead&lt;/strong&gt; refers to my schedule of events. I alternate between a handful of views within my &lt;strong&gt;Master Schedule&lt;/strong&gt;, from which I derive a number of other relational databases (e.g. a retrospective view of the hikes I’ve gone on in that past year, or a forward-looking approach to planning out my upcoming year). I call this a “category-driven” approach, where the &lt;code class=&quot;language-text&quot;&gt;Category&lt;/code&gt; is the crux by which I reference every item on my calendar.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 93.45088161209068%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAABYlAAAWJQFJUiTwAAACXElEQVQ4y32U25KiMBRF/f8fm4d5mLILbcUbom0LNhBuQgTcc3Y0Doxtp+pUApWs7HPLqOs6KKVQ1xXyPENZlrhcLrCjaRpE0QmpipFlCmmamNmuiyJDVZU4nwszjwg83yFFUQg0NxA76rpGHEdyUW4OlWXxmIsiF8hZzmpoXYtVGLVtiySOZdPZqLPjer2aWWttjBf119xfVZVZE8yLOXoKtdlEkLV/wNqE5HQKjRFEL2j0rGkuoLAHME2VccEqfAbebOK84X3qGMB3g2cMkHJ5U9s2L1wWhc0V7l7BWQWYrAOM5x/IyuZJgAAlhklsDuVZJtlLB0mx6hp9ge+usJsvcfR8JErC1HaDyw2QH1RIiDZK9WADYbVYKzEMZg4+J2PEK/fJkweQwYwly6WUDOuRWWNMmbmHQrlIS9xc3xNXpwhVMoA9KTQu3TNG47ct7j5wsV1hsnhH1AO+UBgZZUqxCzKj1JaBTYqWC5YbH7PlCol0yUugVcgMW4U0Zn8ArDvMnQjq6/a/667fls6IrjLLLGrG0ma4XzZ1rdE1GqfDAgfPQZ7sf1ZICBX1lQ2yLMBWgOHnGrvNFMnXx2ugBfEgO4VtxZmdY0pJ6k/fC9/zPLiuC3/nkzYAPgrbLghmIljonGm2Ro3LF3l1/BmC5Rt0Hj21nDXTKSo+iUvNHdg9gLYtqb4ThdHaQzBfIN0fUUXyDn5luP6XnBFfkfHvX6juz5d1mW/jTV2NM1+XSuM42+Iw3WA7nmPzZ4q9s0RD9T0RxuVXJcDB2IVhiMPhgCAMjIXyhNG45v++/QVDq8VZgW1RcAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Master Schedule categories&quot;
+        title=&quot;Master Schedule categories&quot;
+        src=&quot;/blog/static/3eba00f7a8efda40a8a52c188f278f3b/b9e4f/wiki-avail-categories.png&quot;
+        srcset=&quot;/blog/static/3eba00f7a8efda40a8a52c188f278f3b/cf440/wiki-avail-categories.png 148w,
+/blog/static/3eba00f7a8efda40a8a52c188f278f3b/d2d38/wiki-avail-categories.png 295w,
+/blog/static/3eba00f7a8efda40a8a52c188f278f3b/b9e4f/wiki-avail-categories.png 590w,
+/blog/static/3eba00f7a8efda40a8a52c188f278f3b/d8c54/wiki-avail-categories.png 794w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I like to keep a card view of my week within sight, but I find myself primarily alternating between this “Current Week” card view, and the all-encompassing “Calendar View”, allowing me to look at all events ahead on a clear calendar.&lt;/p&gt;
+&lt;p&gt;A shot of my current week view with its applied filters:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 24.90096208262592%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA2UlEQVQY04WQTYoCMRCFc0RP4FaEOYYiXsKluHAjc4E5gytdtiIIo/0T2k46SeVZVSgIDk7B6xRd9b48Yihn7Pc7HA4FpM+svyo/vjknFr3NxBcpw0TvcLu1sNbC1iWIElJKcN7LFkKMrKR9fOGkROj7Hp7lfI/Ie0XjYOq6gmez3FpXpQ5iCGgUTug6j2tZKWT9s8VwusJk8Y3T+Zd9Dm3bwjmn8MA+0zSWf3QaWZLJKSBJKuV5Vl4v2m82S4xHA8xnXzgeC917gjQIyxBHzx/e7hVOFPBf3QHrF4FtUwGS8QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Current Week View with filters&quot;
+        title=&quot;Current Week View with filters&quot;
+        src=&quot;/blog/static/57c2e2f4cd40f98fac411628d1393c64/b9e4f/wiki-current-week.png&quot;
+        srcset=&quot;/blog/static/57c2e2f4cd40f98fac411628d1393c64/cf440/wiki-current-week.png 148w,
+/blog/static/57c2e2f4cd40f98fac411628d1393c64/d2d38/wiki-current-week.png 295w,
+/blog/static/57c2e2f4cd40f98fac411628d1393c64/b9e4f/wiki-current-week.png 590w,
+/blog/static/57c2e2f4cd40f98fac411628d1393c64/f9b6a/wiki-current-week.png 885w,
+/blog/static/57c2e2f4cd40f98fac411628d1393c64/2d849/wiki-current-week.png 1180w,
+/blog/static/57c2e2f4cd40f98fac411628d1393c64/8c2c7/wiki-current-week.png 1767w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;relational-databases&quot;&gt;&lt;a href=&quot;#relational-databases&quot; aria-label=&quot;relational databases permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Relational Databases&lt;/h3&gt;
+&lt;p&gt;A prime example of a relational database I derive from this &lt;strong&gt;Master Schedule&lt;/strong&gt; is the view I link to within my &lt;strong&gt;The Great Outdoors&lt;/strong&gt; page, which is filtered using a defined &lt;code class=&quot;language-text&quot;&gt;Category&lt;/code&gt; of “Hiking”:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 93.32615715823465%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAAElklEQVQ4y2WU+VNTZxSG77/TaftDp+O0nVbttFLt1FaxliJQQHFhZJFKWBIh7LITlrAFCIsghCWAWqqtwihlUxaZ4tIRRUACBAIJSxLI8vQGsIo9d9475/vmO+fOfM95r2Df3GBhTod+duY/GfRz2DasbIXTIb5ccu7odbydvwlhSOdE8xhqhzdQ9a2jfmCndAAa+hdo/b2fjvtGuh6u0DlioqNvkarGTu72DdE9+oqu4UlRU3QOT3N7aJreMR1CY880ksI/CYsvJDAiDd9wBV6yanLK23D38eRIwEVCU+oJlis5K4vhlMSLqx030N5foqpzAtWt5yhv/EOedpS6rgmEYkUqnt/vJ8z/CPLA4yQEehDt/S2VGVKkimh8grzxv/gLPqFH8ZQcwke6n+rmOsrqb6Cs0aJu+o2ysjJykuOoVJUgXG8sJU0WQEl6DFfzErhekU7l5Qiu1RSQWhFHSNYpUpQhXM6IQp4l4YzcmwZNCeqcFCoUSWTHR5CbGEmzOo/W6iIE68Ymy8tGVldXMZvNuy7YqF9gXq/HuGzCZDSJZ9aw27ZhbK+3a2x2+xsoZusmugUjjregOZ07RWLB2vra/4jaxQZTcwZWLJs7vMXHad+SMDQ8SF9PF8MD9xgbfcCLZ4/QvZrgxcuX/Jp+E8+oNk7LmwmKryFScZPw4n56+scwDncz393JxF+DjI9M8Wh0gdHHqwi3tHUoUyQUiFJly6hSZVOWn0hZYQ4/y7Ts/ekSQRekhIdH8eNxT6SZtdy63cMdTTk3VWk0Z8q5mh1HYfwFmlR54tjUFuPm9iF+Xl/h7+VGToQ3Mr99hAV7kpuVjjQ8iAJFDgODT6i9UsvZk77k5yYRFnKQ4MC9nPL7iDPHPibQ/QMkofsRVBW5REb5cUX8WoMqncG2EpqVUkoKUmhrrKVUqSA5PobGhnqev5ylp3cQbXMN+VlhpCWc5VKkD1EhvuRFBpGbFipCMS2LdzaNwbCIyWTadfkLiwYmJyfFfSNG4zIbr+0oxuTUNPPzepaXlnZNh2DZdKI3WbHvgLSJiVUcDdfauGphzbLxDmGb2HiDWb0B18i9DldutlgQWjruoNJ0IKvuJ7Z5gvimp2S2PeaP++Pc7X3And4RHj6dZmxcx8DoOI+e6URvzyCtGqG0fYQrHYPc7vubwSeit7v7EDLyywiRyIiWJ5CiUNJar6S+4ALaqmSO+3mz7+ABAs4HERohxSfAn+CICDJL1Hzh7sv7n4lQAs+hbb+OPC6G1MtJCCVFqRz94XNiowJIlBwmI/owRTFutFZJOXDsaz458B5HvD7lO489nPD/Eo+Te4iVB+LrcYhvDu3D/+QJ5HIp7h7HOHf+NEKDRk1C8jmS0uRkKDIpFmdQXRwrkiwmKz8OWeIZitSX0LSnUVYnp16TQd+9a5Tnp6Apz6Ktrpj2pkpa21toaWtBWDdbmJmdZW1tFZvNsQuAYXGROZGk1WrF+c6/9dWMjiWDAYvFLPr7DRxhzWxFv7SyVeDysIuiy6sOhx2DaZ3llfWtgw6HY2vfpU2bjXmxxmLdbuTYqnNs6V/8X7AsLbCh6QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;2019 Hikes, Card View&quot;
+        title=&quot;2019 Hikes, Card View&quot;
+        src=&quot;/blog/static/b9cd205f2461fda29ad6964611daf6b4/b9e4f/wiki-2019-hikes.png&quot;
+        srcset=&quot;/blog/static/b9cd205f2461fda29ad6964611daf6b4/cf440/wiki-2019-hikes.png 148w,
+/blog/static/b9cd205f2461fda29ad6964611daf6b4/d2d38/wiki-2019-hikes.png 295w,
+/blog/static/b9cd205f2461fda29ad6964611daf6b4/b9e4f/wiki-2019-hikes.png 590w,
+/blog/static/b9cd205f2461fda29ad6964611daf6b4/f9b6a/wiki-2019-hikes.png 885w,
+/blog/static/b9cd205f2461fda29ad6964611daf6b4/356ef/wiki-2019-hikes.png 929w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 583px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 40.480274442538594%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABP0lEQVQoz3VSyU7DQAzN/x/4Ek6cOLIcEaqE4NRyqcieTPZkJrM8bLepWiQsWRPb856fx4lAFkLAZvy9+Wa9cWi0RUenWVcMwwBtDOAdPqsZd7sC9/tG7kbTvMA5h3meMY4jrLVYCcQ51Xdohh7GOmhyPqVOZHwGIqwmg10x4qBmBMJEb19H1oWyLFEUuXSfpkkAP3mGYxrfqL2226zHojWij0NGFYeB1DGwa1toKhijeX6M1MDa9ZboTwNPsXNecNH7dyW99HmMplGikMeuqgpK1RLz5bquKVfKc3Rdd4m995ITwueXV+liiFDeTQhGiRnA3pJqSw0adWoWfLiQsAdReCZ8enwQwo2EncEM4AtaL3KemmqZ4j8TwjzNkKYpkiRBHMeyHFbESsRp+xNtWhWZ1PgZeHmsnP+Ka+c/5Rceo2vLeEsO+AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;2019 Hikes, applied filters&quot;
+        title=&quot;2019 Hikes, applied filters&quot;
+        src=&quot;/blog/static/ac32626b3c9606b7377610596b6eac98/970f7/wiki-2019-filters.png&quot;
+        srcset=&quot;/blog/static/ac32626b3c9606b7377610596b6eac98/cf440/wiki-2019-filters.png 148w,
+/blog/static/ac32626b3c9606b7377610596b6eac98/d2d38/wiki-2019-filters.png 295w,
+/blog/static/ac32626b3c9606b7377610596b6eac98/970f7/wiki-2019-filters.png 583w&quot;
+        sizes=&quot;(max-width: 583px) 100vw, 583px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Another example of a relational database I derive from the same &lt;strong&gt;Master Schedule&lt;/strong&gt; is my forward-looking annual planning view, where I plan out and account for upcoming travel and vacation hours spent in a given year. For example, from this view, by summing up the numeric total of my &lt;code class=&quot;language-text&quot;&gt;$Dog Sitter&lt;/code&gt; property, I can determine how much money I intend to spend on dog sitters for the rest of the year.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37.59936406995231%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABXklEQVQoz61RPU/DMBD1b2NkQQghsYBYEQyoYkGVmPgv/AEWFibKUgnUIihMgChpaD6aLzu2E+dxdpqCxMpJL8ld7s7vPbPj9TXs7G1hc38Du4fbODk9QL9/hLPzHp5exih4jqJokWcJAv8D09dnTEa3mNwT7gYYDW8wHFzh+vICrIoi6LqGlBJKKVSVdm/3TfWmMYTGwVBeaQVZcmhVQoocIk9QioJqAloKsPHjAyUl/ivYbOYhCALEcYwsy5CmKTSxsNG4R7Ni2aYtU1sz5gedCsbJGyEESa1cY0lsOSdJWpM8DVnV4FKTRIUkWbi6tcf2KbW0iWqrhT4x9AhpmriT7EAUhQgJ6SLGQtAiZcBzgbd3H8ayNY1T49jSjPVdO/8rMM+bwvd9zOdfbpk90S6M6LJ+L5Rk/Cf1drL1klVJlxGGgZuxs6zT30VH/S8M/Wx7LRNrU00WWXu6ORvfrLdgzZE3SNAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;2019 Travel Plans&quot;
+        title=&quot;2019 Travel Plans&quot;
+        src=&quot;/blog/static/17edead5047494d3eaaa16d35bab34f3/b9e4f/wiki-2019-travel.png&quot;
+        srcset=&quot;/blog/static/17edead5047494d3eaaa16d35bab34f3/cf440/wiki-2019-travel.png 148w,
+/blog/static/17edead5047494d3eaaa16d35bab34f3/d2d38/wiki-2019-travel.png 295w,
+/blog/static/17edead5047494d3eaaa16d35bab34f3/b9e4f/wiki-2019-travel.png 590w,
+/blog/static/17edead5047494d3eaaa16d35bab34f3/f9b6a/wiki-2019-travel.png 885w,
+/blog/static/17edead5047494d3eaaa16d35bab34f3/2d849/wiki-2019-travel.png 1180w,
+/blog/static/17edead5047494d3eaaa16d35bab34f3/3c6bd/wiki-2019-travel.png 1258w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;the-tasks-ahead&quot;&gt;&lt;a href=&quot;#the-tasks-ahead&quot; aria-label=&quot;the tasks ahead permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The Tasks Ahead&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The Tasks Ahead&lt;/strong&gt; is a much more simplistic subsection. I keep an extremely simple to-do list, consisting of three columns: &lt;code class=&quot;language-text&quot;&gt;Backlog&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;Doing&lt;/code&gt;, and &lt;code class=&quot;language-text&quot;&gt;Done&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 34.106280193236714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAAA/ElEQVQoz3WRiY6DMAxE+/9/uW26hQDhyp3ArO0KxF6WLBEjv/HYt5wCwmpQSoJzK2qt4Nj3/cxrHO8YAsahR4wRdl3hvYO1Fjf+uW0b2raFUgqPxx3Pp/oGusIljzp+hwBLKRhIzTmHnLMkRyUhVv053U517+yfYgJkQNO8YMyAaZowjgYhRNSS8VIfWNb3KtgJ0eByxadZUHM6V3TAzwnneSLYiL7voXVLuwkC0G2DrtMwwyCCgfa85A33OSB5C0uuUnqDTyB/6K6jBkMWqWGZaUIvdRbgqdk6H4AbKzm3MclhjhXxUAI89mJDksZMNq4WWJ2TGy63xn/xBVIEI45A+8GGAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;My To-Do List&quot;
+        title=&quot;My To-Do List&quot;
+        src=&quot;/blog/static/abe3c67421b1851868d679ccfa448214/b9e4f/wiki-to-do.png&quot;
+        srcset=&quot;/blog/static/abe3c67421b1851868d679ccfa448214/cf440/wiki-to-do.png 148w,
+/blog/static/abe3c67421b1851868d679ccfa448214/d2d38/wiki-to-do.png 295w,
+/blog/static/abe3c67421b1851868d679ccfa448214/b9e4f/wiki-to-do.png 590w,
+/blog/static/abe3c67421b1851868d679ccfa448214/f9b6a/wiki-to-do.png 885w,
+/blog/static/abe3c67421b1851868d679ccfa448214/17fa4/wiki-to-do.png 1035w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;Backlog&lt;/code&gt; is where I typically throw items I want to look into within the next few weeks, but aren’t a pressing priority. &lt;code class=&quot;language-text&quot;&gt;Doing&lt;/code&gt; is where the higher priority items typically land, things I believe I can accomplish that day or week. &lt;code class=&quot;language-text&quot;&gt;Done&lt;/code&gt; only exists as a point of pride; it’s nice to see all those checked-off items populating the far right column at the end of a long week. I always end up deleting the completed tasks (I used to maintain an Archive, but I never went back in 🤷‍♀️), but it’s nice to bask in your accomplishments for a day or two beforehand.&lt;/p&gt;
+&lt;h1 id=&quot;in-conclusion&quot;&gt;&lt;a href=&quot;#in-conclusion&quot; aria-label=&quot;in conclusion permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;In Conclusion&lt;/h1&gt;
+&lt;p&gt;Between these two subsections, I manage to track most of the things I need to do in my personal life within a week. 🎉 Hopefully you can get some use out of a similar approach, using my templates, to which I have linked below.&lt;/p&gt;
+&lt;h2 id=&quot;templates&quot;&gt;&lt;a href=&quot;#templates&quot; aria-label=&quot;templates permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Templates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.notion.so/kalestew/Template-Basecamp-8df1b95502454bdebeecfe7f99082428&quot;&gt;Basecamp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.notion.so/kalestew/0de5c8318a944e39a7bb9ba0942269ea?v=70ccd14075c44c48bed9878451b5f4da&quot;&gt;The Week Ahead (a.k.a. &lt;strong&gt;Master Schedule&lt;/strong&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.notion.so/kalestew/The-Great-Outdoors-5961e3ccff27459db2be58b89c94ceda&quot;&gt;The Great Outdoors&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Using Formulas to Calculate Weight]]></title><description><![CDATA[Calculating Pack Weight in Notion Over the weekend, I decided to formally document all of my backpacking, camping, hiking, and climbing gear…]]></description><link>https://kyliestewart.tech/blog/notion/using-formulas-to-calculate-weight/</link><guid isPermaLink="false">https://kyliestewart.tech/blog/notion/using-formulas-to-calculate-weight/</guid><pubDate>Fri, 16 Aug 2019 20:08:47 GMT</pubDate><content:encoded>&lt;h1 id=&quot;calculating-pack-weight-in-notion&quot;&gt;&lt;a href=&quot;#calculating-pack-weight-in-notion&quot; aria-label=&quot;calculating pack weight in notion permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Calculating Pack Weight in Notion&lt;/h1&gt;
 &lt;p&gt;Over the weekend, I decided to formally document all of my backpacking, camping, hiking, and climbing gear. I wanted to create a centralized tracker for a few reasons, the most important few being:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Figuring out when it’s time to replace a piece of gear, based on the length of time I’ve owned it and condition it’s currently in&lt;/li&gt;
