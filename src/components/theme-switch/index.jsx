@@ -26,7 +26,8 @@ function toggleTheme(theme) {
 }
 
 export const ThemeSwitch = () => {
-  const [checked, setChecked] = useState(false)
+  const isInitiallyDark = Dom.hasClassOfBody(THEME.DARK) || window.matchMedia('(prefers-color-scheme: dark)').matches
+  const [checked, setChecked] = useState(isInitiallyDark)
 
   const handleChange = checked => {
     const theme = getTheme(checked)
@@ -36,9 +37,16 @@ export const ThemeSwitch = () => {
   }
 
   useEffect(() => {
-    const checked = Dom.hasClassOfBody(THEME.DARK)
-
     handleChange(checked)
+  }, [checked])
+
+  useEffect(() => {
+    const mediaListener = e => {
+      handleChange(e.matches)
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(mediaListener)
+
+    return () => window.matchMedia('(prefers-color-scheme: dark)').removeListener(mediaListener)
   }, [])
 
   return (

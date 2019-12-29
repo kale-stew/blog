@@ -5,6 +5,9 @@
 body {
   font-family: 'Noto Sans KR', sans-serif;
   background-color: $light-background-color;
+  @media (prefers-color-scheme: dark) {
+    background-color: $dark-background-color;
+  }
   -webkit-text-size-adjust: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background-color 0.3s, color 0.3s;
