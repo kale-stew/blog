@@ -1,16 +1,20 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
+import { ThemeSwitch } from '../components/theme-switch'
 import { Top } from '../components/top'
 import { rhythm } from '../utils/typography'
 
-export default ({ data, location, rootPath }) => {
+export default ({ data }) => {
   const resumes = data.allMarkdownRemark.edges
   const resume = resumes.map(({ node }) => node)[0]
 
   return (
     <React.Fragment>
-      <Top title={`Kylie is Online`} location={''} rootPath={'/'} />
+      <Top location={''} rootPath={'/'} />
+      <div style={{ paddingRight: '2rem', paddingTop: '2rem' }}>
+        <ThemeSwitch />
+      </div>
       <div
         style={{
           marginLeft: `auto`,

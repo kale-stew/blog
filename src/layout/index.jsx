@@ -13,7 +13,7 @@ export const Layout = ({ location, title, children }) => {
 
   return (
     <React.Fragment>
-      <Top title={title} location={location} rootPath={rootPath} />
+      <Top location={location} rootPath={rootPath} />
       <div
         style={{
           marginLeft: `auto`,
