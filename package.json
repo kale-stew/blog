@@ -15,7 +15,7 @@
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
-    "post": "node ./cli/create-new-post.js",
+    "new-post": "node ./cli/create-new-post.js",
     "start": "npm run develop"
   },
   "dependencies": {
