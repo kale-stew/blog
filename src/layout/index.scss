@@ -3,7 +3,7 @@
 @import '../styles/dark-theme.scss';
 
 body {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   background-color: $light-background-color;
   @media (prefers-color-scheme: dark) {
     background-color: $dark-background-color;

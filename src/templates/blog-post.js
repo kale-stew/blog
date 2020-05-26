@@ -8,7 +8,6 @@ import { PostTitle } from '../components/post-title'
 import { PostDate } from '../components/post-date'
 import { PostContainer } from '../components/post-container'
 import { SocialShare } from '../components/social-share'
-import { SponsorButton } from '../components/sponsor-button'
 import { Bio } from '../components/bio'
 import { PostNavigator } from '../components/post-navigator'
 import * as ScrollManager from '../utils/scroll'
@@ -24,7 +23,7 @@ export default ({ data, pageContext, location }) => {
 
   const post = data.markdownRemark
   const metaData = data.site.siteMetadata
-  const { author, title, siteUrl, sponsor } = metaData
+  const { author, title, siteUrl } = metaData
   const { title: postTitle, date, thumbnail } = post.frontmatter
   const thumbnailSrc = thumbnail
     ? `${siteUrl}${thumbnail.childImageSharp.fixed.src}`
@@ -40,10 +39,6 @@ export default ({ data, pageContext, location }) => {
       <PostTitle title={postTitle} />
       <PostDate date={date} />
       <PostContainer html={post.html} />
-      <SocialShare title={postTitle} author={author} />
-      {!!sponsor.buyMeACoffeeId && (
-        <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
-      )}
       <Elements.Hr />
       <Bio />
       <PostNavigator pageContext={pageContext} />
@@ -58,9 +53,6 @@ export const pageQuery = graphql`
         title
         author
         siteUrl
-        sponsor {
-          buyMeACoffeeId
-        }
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

@@ -6,7 +6,7 @@ GitHubTheme.overrideThemeStyles = () => {
     a: {
       boxShadow: `none`,
       textDecoration: `none`,
-      color: `#0687f0`,
+      color: `#cb067a`,
     },
     'a.gatsby-resp-image-link': {
       boxShadow: `none`,
@@ -18,9 +18,10 @@ GitHubTheme.overrideThemeStyles = () => {
     },
 
     h1: {
-      fontWeight: 800,
+      fontWeight: 550,
+      fontSize: '2.5rem',
       lineHeight: 1.2,
-      fontFamily: 'Catamaran',
+      fontFamily: 'Fira Sans',
     },
 
     h2: {
@@ -28,7 +29,7 @@ GitHubTheme.overrideThemeStyles = () => {
       lineHeight: 1.2,
       marginTop: '56px',
       marginBottom: '20px',
-      fontFamily: 'Catamaran',
+      fontFamily: 'Fira Sans',
     },
 
     ul: {

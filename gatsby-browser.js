@@ -1,6 +1,3 @@
-// custom typefaces
-require('typeface-catamaran')
-
 // polyfill
 require('intersection-observer')
 

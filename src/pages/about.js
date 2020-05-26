@@ -10,7 +10,7 @@ export default ({ data, location, rootPath }) => {
 
   return (
     <React.Fragment>
-      <Top title={`Kylie's Blog`} location={''} rootPath={'/'} />
+      <Top title={`Kylie is Online`} location={''} rootPath={'/'} />
       <div
         style={{
           marginLeft: `auto`,

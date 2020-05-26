@@ -14,9 +14,6 @@ body.light {
     .author-introduction {
       color: $middle-gray;
     }
-    a {
-      color: $light-link-color;
-    }
   }
 
   .category-container {
@@ -31,11 +28,10 @@ body.light {
       -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
       a {
-        color: $light-category-text-color;
+        color: #cb067a;
       }
       &[aria-selected='true'] {
         border: 2px solid $light-category-highlight-border-color;
-        font-weight: bolder;
       }
       &[aria-selected='true'] a {
         color: $light-category-highlight-text-color;
@@ -47,11 +43,13 @@ body.light {
     h3 {
       color: $dark-gray;
     }
+    h3:hover {
+      font-style: italic;
+      text-decoration: underline;
+      color: #cb067a;
+    }
     p {
       color: $middle-gray;
-    }
-    &:hover {
-      text-shadow: $light-hover-text-shadow;
     }
   }
 
