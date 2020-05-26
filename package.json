@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "Kylie Stewart <kylie@kyliestewart.tech>",
   "bugs": {
-    "url": "https://github.com/kale-stew/kylieis.online/issues"
+    "url": "https://github.com/kale-stew/blog/issues"
   },
   "scripts": {
     "build": "gatsby clean && gatsby build",
