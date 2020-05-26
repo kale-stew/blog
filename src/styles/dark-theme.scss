@@ -3,9 +3,14 @@ body.dark {
   text-shadow: $dark-text-shadow;
   color: $dark-light-font-color;
 
-  // home
+  a {
+    color: $dark-colored-font-color;
+  }
+
   .home-header {
-    color: $dark-light-font-color;
+    a {
+      color: $dark-light-font-color;
+    }
   }
 
   .bio {
@@ -16,7 +21,7 @@ body.dark {
       color: $dark-middle-font-color;
     }
     a {
-      color: $dark-link-color;
+      color: $dark-colored-font-color;
     }
   }
 
@@ -48,11 +53,16 @@ body.dark {
     h3 {
       color: $dark-light-font-color;
     }
+    h6 {
+      color: $dark-middle-font-color;
+    }
     p {
       color: $dark-middle-font-color;
     }
-    &:hover {
-      text-shadow: $dark-hover-text-shadow;
+    h3:hover {
+      font-style: italic;
+      text-decoration: underline;
+      color: $dark-link-color;
     }
   }
 
@@ -63,20 +73,18 @@ body.dark {
     }
   }
 
-  // post
+  // blog-post
   blockquote {
     border-left: 4px solid rgba(255, 255, 255, 0.822);
   }
-
   h1,
   h2 {
     border-bottom-color: rgba(255, 255, 255, 0.3);
   }
-
   .navigator {
     a {
-      background-color: $navigator-background-color;
-      color: $navigator-text-color;
+      background-color: $dark-navigator-background-color;
+      color: $dark-navigator-text-color;
     }
   }
   td {

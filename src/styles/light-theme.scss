@@ -2,7 +2,10 @@ body.light {
   background-color: $light-background-color;
   text-shadow: $light-text-shadow;
 
-  // home
+  a {
+    color: $light-colored-font-color;
+  }
+
   .home-header {
     color: $dark-gray;
   }
@@ -28,7 +31,7 @@ body.light {
       -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
       a {
-        color: #cb067a;
+        color: $light-link-color;
       }
       &[aria-selected='true'] {
         border: 2px solid $light-category-highlight-border-color;
@@ -46,25 +49,24 @@ body.light {
     h3:hover {
       font-style: italic;
       text-decoration: underline;
-      color: #cb067a;
+      color: $light-link-color;
     }
     p {
       color: $middle-gray;
     }
   }
 
+  // blog-post
   .footer {
     color: $light-gray;
     a {
       color: $dark-gray;
     }
   }
-
-  // post
   .navigator {
     a {
-      background-color: $navigator-background-color;
-      color: $navigator-text-color;
+      background-color: $light-navigator-background-color;
+      color: $light-navigator-text-color;
     }
   }
 }
