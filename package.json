@@ -8,7 +8,7 @@
     "url": "https://github.com/kale-stew/blog/issues"
   },
   "scripts": {
-    "build": "gatsby clean && gatsby build",
+    "build": "gatsby clean && gatsby build --prefix-paths",
     "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public",
     "dev": "gatsby develop",
     "develop": "gatsby develop",
