@@ -7,14 +7,15 @@ module.exports = {
   social: {
     twitter: `kyliestew`,
     github: `kale-stew`,
+    linkedin: `kylieastewart`,
   },
-  sponsor: {
-    buyMeACoffeeId: '', // @TODO
-  },
+  // sponsor: {
+  //   buyMeACoffeeId: 'kale',
+  // },
   icon: `content/assets/favicon.png`,
   keywords: [`blog`],
   configs: {
     countOfInitialPost: 10,
   },
-  ga: '', // @TODO
+  ga: 'UA-110206200-3',
 }

@@ -21,6 +21,7 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 title
                 category
+                draft
               }
             }
           }
@@ -34,7 +35,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     // Create blog posts pages.
     const posts = result.data.allMarkdownRemark.edges.filter(
-      ({ node }) => !!node.frontmatter.category
+      ({ node }) => !node.frontmatter.draft && !!node.frontmatter.category
     )
 
     posts.forEach((post, index) => {
@@ -59,8 +60,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
-
-    console.log(value)
 
     createNodeField({
       name: `slug`,

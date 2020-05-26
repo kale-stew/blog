@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql, Link } from 'gatsby'
 import Image from 'gatsby-image'
 
 import './index.scss'
@@ -37,6 +37,11 @@ export const Bio = () => (
                       Twitter
                     </a>
                   )}
+                  {social.linkedin && (
+                    <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
+                      LinkedIn
+                    </a>
+                  )}
                 </p>
               </div>
             </div>
@@ -63,6 +68,7 @@ const bioQuery = graphql`
         social {
           twitter
           github
+          linkedin
         }
       }
     }
