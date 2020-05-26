@@ -1,6 +1,7 @@
 $top-header-text-color: #fff;
 $accent-pink: #e92d9e;
 $accent-purple: #291e95;
+$accent-light-purple: #6101a0;
 $theme-gradient: linear-gradient(72deg, $accent-purple, $accent-pink);
 $inline-dimmed-color: #ebebeb;
 $inline-text-color: #4b2043;
@@ -18,10 +19,10 @@ $light-background-color: #fff;
 $light-link-color: $accent-purple;
 $light-text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.3);
 $light-hover-text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-$light-colored-font-color: $accent-purple;
+$light-colored-font-color: $accent-light-purple;
 
 // blog-templates
-$light-navigator-text-color: #6101a0;
+$light-navigator-text-color: $accent-light-purple;
 $light-navigator-background-color: #f2ddff;
 $blockquote-text-color: #999;
 

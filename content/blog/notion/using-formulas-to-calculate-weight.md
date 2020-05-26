@@ -5,8 +5,6 @@ category: notion
 draft: false
 ---
 
-# Calculating Pack Weight in Notion
-
 Over the weekend, I decided to formally document all of my backpacking, camping, hiking, and climbing gear. I wanted to create a centralized tracker for a few reasons, the most important few being:
 
 - Figuring out when it's time to replace a piece of gear, based on the length of time I've owned it and condition it's currently in
