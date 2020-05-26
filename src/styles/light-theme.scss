@@ -56,13 +56,12 @@ body.light {
     }
   }
 
-  // blog-post
   .footer {
-    color: $light-gray;
-    a {
-      color: $dark-gray;
-    }
+    display: flex;
+    justify-content: space-evenly;
   }
+
+  // blog-post
   .navigator {
     a {
       background-color: $light-navigator-background-color;

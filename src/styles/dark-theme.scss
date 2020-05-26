@@ -67,10 +67,8 @@ body.dark {
   }
 
   .footer {
-    color: $dark-middle-font-color;
-    a {
-      color: $dark-lightest-font-color;
-    }
+    display: flex;
+    justify-content: space-evenly;
   }
 
   // blog-post
