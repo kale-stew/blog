@@ -25,8 +25,8 @@ export const Layout = ({ location, title, children }) => {
         <ThemeSwitch />
         <Header title={title} location={location} rootPath={rootPath} />
         {children}
-        <Footer />
       </div>
+      <Footer />
     </React.Fragment>
   )
 }

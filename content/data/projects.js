@@ -1,28 +1,18 @@
 const projects = [
   {
-    title: 'Now',
-    subtitle: "What I'm doing *now*",
-    topic: 'blog',
-    link: 'https://kylieis.online/now',
-  },
-  // {
-  //   "title": "Quoteboard",
-  //   "subtitle": "",
-  //   "topic": "dev",
-  //   "link": ""
-  // },
-  {},
-  {
     title: 'Talks',
-    subtitle: 'All of my talks in one place',
-    topic: 'speaking',
+    subtitle: 'All of my talks, in one place',
     link: 'https://kylieis.online/talks',
   },
   {
     title: 'Blog',
     subtitle: 'Long-form Twitter',
-    topic: 'blog',
-    link: 'https://kylieis.online/blog',
+    link: '/blog',
+  },
+  {
+    title: 'Now',
+    subtitle: "What I'm doing *now*",
+    link: 'https://kylieis.online/now',
   },
 ]
 

@@ -1,10 +1,6 @@
-import _ from 'lodash'
-
+import partial from 'lodash.partial'
 import { setValueTo, getValueFrom } from './core'
 import { sessionStorage } from './browser'
 
-export const setValueToSessionStorage = _.partial(setValueTo, sessionStorage)
-export const getValueFromSessionStorage = _.partial(
-  getValueFrom,
-  sessionStorage
-)
+export const setValueToSessionStorage = partial(setValueTo, sessionStorage)
+export const getValueFromSessionStorage = partial(getValueFrom, sessionStorage)

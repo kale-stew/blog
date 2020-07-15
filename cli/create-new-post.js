@@ -1,11 +1,11 @@
-const path = require('path')
-const fs = require('fs-extra')
 const dateFns = require('date-fns')
-const _ = require('lodash')
-const rr = require('recursive-readdir')
-const matter = require('gray-matter')
+const fs = require('fs-extra')
 const inquirer = require('inquirer')
 const log = require('signale')
+const matter = require('gray-matter')
+const path = require('path')
+const rr = require('recursive-readdir')
+const uniq = require('lodash.uniq')
 const cwd = process.cwd()
 
 const CONTENTS_DIR = '/content/blog'
@@ -20,7 +20,7 @@ const ignoreFunc = (file, stats) =>
 const getCategories = async () => {
   const markdownFiles = await rr(TARGET_DIR, [ignoreFunc])
 
-  return _.uniq(
+  return uniq(
     markdownFiles
       .map(file => fs.readFileSync(file, UTF_8))
       .map(str => matter(str).data.category)
