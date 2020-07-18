@@ -1,21 +1,10 @@
 {
-  "name": "kylieis.online",
+  "name": "old-blog",
   "description": "Kylie Stewart's online blog",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": "Kylie Stewart <kylie@kyliestewart.tech>",
   "bugs": {
-    "url": "https://github.com/kale-stew/kale-stew.github.io/issues"
-  },
-  "scripts": {
-    "build": "gatsby clean && gatsby build --prefix-paths",
-    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public",
-    "dev": "gatsby develop",
-    "develop": "gatsby develop",
-    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
-    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
-    "new-post": "node ./cli/create-new-post.js",
-    "start": "npm run develop"
+    "url": "https://github.com/kale-stew/blog/issues"
   },
   "dependencies": {
     "gatsby": "^2.2.8",
@@ -81,6 +70,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kale-stew/kale-stew.github.io.git"
+    "url": "git+https://github.com/kale-stew/blog.git"
   }
 }
