@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "description": "Kylie Stewart's online blog",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "author": "Kylie Stewart <kylie@kyliestewart.tech>",
   "bugs": {
     "url": "https://github.com/kale-stew/blog/issues"
