@@ -1,10 +1,20 @@
 {
-  "name": "old-blog",
+  "name": "blog",
   "description": "Kylie Stewart's online blog",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "author": "Kylie Stewart <kylie@kyliestewart.tech>",
   "bugs": {
     "url": "https://github.com/kale-stew/blog/issues"
+  },
+  "scripts": {
+    "build": "gatsby clean && gatsby build --prefixPaths",
+    "test-build": "yarn run build && gatsby serve",
+    "deploy": "gatsby clean && gatsby build && gh-pages -b master -d public",
+    "dev": "gatsby develop",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*/**.{js,jsx,scss}' 'gatsby-*.js' 'content/**/*.md'",
+    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
+    "new-post": "node ./cli/create-new-post.js"
   },
   "dependencies": {
     "gatsby": "^2.2.8",
@@ -44,6 +54,7 @@
     "react-scripts": "3.2.0",
     "react-social-icons": "^4.1.0",
     "react-switch": "^5.0.0",
+    "react-typography": "^0.16.19",
     "smooth-scroll": "^16.0.0",
     "typeface-fira-sans": "^0.0.75",
     "typography": "^0.16.17",
@@ -63,7 +74,6 @@
     "signale": "^1.3.0"
   },
   "keywords": [
-    "personal site",
     "gatsby",
     "blog"
   ],
