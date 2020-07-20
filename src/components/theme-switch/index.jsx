@@ -32,7 +32,7 @@ export const ThemeSwitch = () => {
   // default to 'dark', the dark mode persists on a page change,
   // instead of light mode
   const isInitiallyDark =
-    Dom.hasClassOfBody(THEME.DARK) ||
+    (typeof window !== `undefined` && Dom.hasClassOfBody(THEME.DARK)) ||
     (typeof window !== `undefined` &&
       window.matchMedia('(prefers-color-scheme: dark)').matches)
 
