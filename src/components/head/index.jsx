@@ -7,7 +7,7 @@ export function Head({ description, keywords, meta, title }) {
   return (
     <StaticQuery
       query={detailsQuery}
-      render={data => {
+      render={(data) => {
         const metaDescription =
           description || data.site.siteMetadata.description
         return (

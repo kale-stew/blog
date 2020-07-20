@@ -54,7 +54,7 @@ export default ({ data, location }) => {
     Storage.setCategory(category)
   })
 
-  const selectCategory = category => {
+  const selectCategory = (category) => {
     setCategory(category)
     ScrollManager.go(DEST_POS)
   }
@@ -65,7 +65,7 @@ export default ({ data, location }) => {
     const doesNeedMore = () =>
       posts.length > countRef.current * countOfInitialPost
 
-    return EventManager.toFit(() => setCount(prev => prev + 1), {
+    return EventManager.toFit(() => setCount((prev) => prev + 1), {
       dismissCondition: () => !isTriggerPos(),
       triggerCondition: () => isTriggerPos() && doesNeedMore(),
     })()

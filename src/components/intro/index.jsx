@@ -7,7 +7,7 @@ import './index.scss'
 export const Intro = () => (
   <StaticQuery
     query={introQuery}
-    render={data => {
+    render={(data) => {
       const { author } = data.site.siteMetadata
 
       return (

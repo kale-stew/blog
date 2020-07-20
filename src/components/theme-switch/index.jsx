@@ -27,14 +27,18 @@ function toggleTheme(theme) {
 }
 
 export const ThemeSwitch = () => {
+  // @TODO: Bug
+  // Currently, when a user toggles to light mode but has an OS
+  // default to 'dark', the dark mode persists on a page change,
+  // instead of light mode
   const isInitiallyDark =
-    typeof window !== `undefined` &&
-    (Dom.hasClassOfBody(THEME.DARK) ||
+    Dom.hasClassOfBody(THEME.DARK) ||
+    (typeof window !== `undefined` &&
       window.matchMedia('(prefers-color-scheme: dark)').matches)
 
   const [checked, setChecked] = useState(isInitiallyDark)
 
-  const handleChange = checked => {
+  const handleChange = (checked) => {
     const theme = getTheme(checked)
     setChecked(checked)
     toggleTheme(theme)
@@ -45,7 +49,7 @@ export const ThemeSwitch = () => {
   }, [checked])
 
   useEffect(() => {
-    const mediaListener = e => {
+    const mediaListener = (e) => {
       handleChange(e.matches)
     }
     window.matchMedia('(prefers-color-scheme: dark)').addListener(mediaListener)
