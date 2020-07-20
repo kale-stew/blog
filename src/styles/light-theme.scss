@@ -6,16 +6,8 @@ body.light {
     color: $light-colored-font-color;
   }
 
-  .lander {
-    max-width: 48rem;
-    margin: 0px auto;
-    font-family: 'Fira Sans';
-
-    h2 {
-      font-style: italic;
-      font-size: 26px;
-      align-self: center;
-    }
+  ::selection {
+    background-color: $accent-pink;
   }
 
   .project-wrapper {
